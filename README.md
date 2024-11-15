@@ -4,7 +4,7 @@
 [![GitHub Release](https://img.shields.io/github/release/zbigniewmotyka/home-assistant-solplanet.svg)](https://github.com/zbigniewmotyka/home-assistant-solplanet/releases/)
 
 ![Solplanet-Logo-Gradient](https://github.com/user-attachments/assets/9675dcad-d32d-4605-972c-b3e244eb1ee8) \
-The integration locally pool from Solplanet inverter and exposes Inverter, Battery and Smart meter information. \
+The integration locally poll from Solplanet inverter and exposes Inverter, Battery and Smart meter information. \
 This information can be used into Home Assistant Energy Dashboard.
 
 ## Features
@@ -29,13 +29,13 @@ This information can be used into Home Assistant Energy Dashboard.
 ## Home Assistant Energy Dashboard
 Assign these sensors into the Energy Dashboard
 
-| **Section**      | **Home Assistant** |  **Solplanet**           |
-|:----------------:|:------------------:|:------------------------:|
-| Electricity Grid | Grid Consumption   | Grid Energy In Total     |
-| Electricity Grid | Return to Grid     | Grid Energy Out Total    |
-| Solar Panels     | Solar Production   | PV Energy Today          |
-| Battery Storage  | Energy Incoming    | Battery for Charging     |
-| Battery Storage  | Energy Outgoing    | Battery for Discharging  |
+| **Section**        | **Home Assistant** | **Solplanet**            |
+|:-------------------:|:------------------:|:------------------------:|
+| Electricity Grid    | Grid Consumption   | Grid Energy In Total     |
+|                     | Return to Grid     | Grid Energy Out Total    |
+| Solar Panels        | Solar Production   | PV Energy Today          |
+| Battery Storage     | Energy Incoming    | Battery for Charging     |
+|                     | Energy Outgoing    | Battery for Discharging  |
 
 ![386017334-b4899f13-82b7-4be4-938b-e5c2f0670adf](https://github.com/user-attachments/assets/c2660112-ad3b-4ee7-b6a6-5c73fb7f42bb)
 
